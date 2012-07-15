@@ -13,13 +13,15 @@ BEGIN {
   @EXPORT_OK = qw(filter_uri);
 }
 
+=encoding utf8
+
 =head1 NAME
 
 Text::Filter::URI - Filter a string to meet URI requirements
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS
@@ -111,7 +113,7 @@ sub filter {
 
 =head1 AUTHOR
 
-Moritz Onken, C<< <onken at houseofdesign.de> >>
+Moritz Onken, C<< <onken@netcubed.de> >>
 
 =head1 BUGS
 
